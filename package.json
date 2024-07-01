@@ -1,6 +1,7 @@
 {
-  "name": "ls",
+  "name": "pauldalrymple-art",
   "private": true,
+  "homepage": "https://matherton.github.io/PauldalrympleArt/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
