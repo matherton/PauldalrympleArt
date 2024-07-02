@@ -61,7 +61,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="border-b-2 border-slate-200">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -88,7 +88,7 @@ export default function Example() {
               className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900"
               style={{ marginTop: "-.5em" }}
             >
-              Prints
+              Art
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"
@@ -186,7 +186,7 @@ export default function Example() {
                   {({ open }) => (
                     <>
                       <DisclosureButton className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Prints
+                        Art
                         <ChevronDownIcon
                           className={classNames(
                             open ? "rotate-180" : "",
