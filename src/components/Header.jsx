@@ -43,7 +43,7 @@ const printSizes = [
   },
   {
     name: "Large",
-    description: "Veiw large size art (36.5 x 47",
+    description: "Veiw large size art (36.5 x 47)",
     href: "#",
     icon: ChevronDoubleRightIcon,
   },
@@ -61,7 +61,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="border-b-2 border-slate-200">
+    <header className="bg-slate-50">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
