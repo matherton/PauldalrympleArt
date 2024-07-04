@@ -21,7 +21,7 @@ export default function FeaturedImageGallery() {
   const [activeImage, setActiveImage] = React.useState(images[0].src);
 
   return (
-    <div className="grid gap-4">
+    <div className="grid gap-4 p-4">
       <div>
         <img
           className="h-auto w-full max-w-full rounded-lg object-cover object-center md:h-[480px]"
