@@ -68,10 +68,15 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link to="/PauldalrympleArt/" className="-m-1.5 p-1.5">
             <span className="sr-only">Paul Dalrymple Art</span>
-            <img className="h-8 w-auto" src={PaulIcon} alt="" />
-          </a>
+            <img
+              className="h-8 w-auto"
+              src={PaulIcon}
+              alt="profile picture"
+              title="link to homepage"
+            />
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
