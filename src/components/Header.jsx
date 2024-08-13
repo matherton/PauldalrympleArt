@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Dialog,
   DialogPanel,
@@ -142,19 +143,28 @@ export default function Example() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link
+            to="/PauldalrympleArt/drawings"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Drawings
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link
+            to="/PauldalrympleArt/oils"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Oils
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link
+            to="/PauldalrympleArt/about"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             About
-          </a>
+          </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
+            Log Off <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
@@ -210,24 +220,25 @@ export default function Example() {
                     </>
                   )}
                 </Disclosure>
-                <a
-                  href="#"
+                <Link
+                  to="/PauldalrympleArt/drawings"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Drawings
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link to="/PauldalrympleArt/drawings">draw</Link>
+                <Link
+                  to="/PauldalrympleArt/oils"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Oils
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="/PauldalrympleArt/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About
-                </a>
+                </Link>
               </div>
               <div className="py-6">
                 <a

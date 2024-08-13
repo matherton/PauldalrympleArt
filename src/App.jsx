@@ -13,10 +13,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/PauldalrympleArt/" element={<FeaturedImageGallery />} />
-        <Route path="/PauldalrympleArt/mix" element={<MixGallery />} />
-        <Route path="/PauldalrympleArt/gallery" element={<MyGallery />} />
+        <Route path="/PauldalrympleArt/drawings" element={<MixGallery />} />
+        <Route path="/PauldalrympleArt/oils" element={<MyGallery />} />
         <Route
-          path="/PauldalrympleArt/masonry"
+          path="/PauldalrympleArt/about"
           element={<MasonryGridGallery />}
         />
       </Routes>
