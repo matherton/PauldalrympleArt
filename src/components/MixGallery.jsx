@@ -9,21 +9,21 @@ export default function MixGallery() {
             <img
               alt="gallery"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+              src="https://i.imgur.com/AaTG7w6.jpeg"
             />
           </div>
           <div className="w-1/2 p-1 md:p-2">
             <img
               alt="gallery"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+              src="https://i.imgur.com/DvG4ry3.jpeg"
             />
           </div>
           <div className="w-full p-1 md:p-2">
             <img
               alt="gallery"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              src="https://i.imgur.com/pdqJMbx.jpeg"
             />
           </div>
         </div>
@@ -32,21 +32,21 @@ export default function MixGallery() {
             <img
               alt="gallery"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+              src="https://i.imgur.com/ODaHuCg.jpeg"
             />
           </div>
           <div className="w-1/2 p-1 md:p-2">
             <img
               alt="gallery"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+              src="https://i.imgur.com/1QZgR3O.png"
             />
           </div>
           <div className="w-1/2 p-1 md:p-2">
             <img
               alt="gallery"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
+              src="https://i.imgur.com/AaTG7w6.jpeg"
             />
           </div>
         </div>
