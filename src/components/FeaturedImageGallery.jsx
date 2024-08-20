@@ -2,7 +2,7 @@ import React from "react";
 export default function FeaturedImageGallery() {
   const images = [
     {
-      src: "/PauldalrympleArt/src/assets/compressed/IMG_1.png",
+      src: "/PauldalrympleArt/src/assets/IMG_1.png",
     },
     {
       /* /PauldalrympleArt/src/assets/compressed/IMG_2.jpg */
