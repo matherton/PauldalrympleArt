@@ -2,19 +2,19 @@ import React from "react";
 export default function FeaturedImageGallery() {
   const images = [
     {
-      src: "/PauldalrympleArt/src/assets/IMG_1.png",
+      src: "/PauldalrympleArt/src/assets/compressed/IMG_1.png",
     },
     {
-      src: "/PauldalrympleArt/src/assets/IMG_2.png",
+      src: "/PauldalrympleArt/src/assets/compressed/IMG_2.png",
     },
     {
-      src: "/PauldalrympleArt/src/assets/IMG_3.jpg",
+      src: "/PauldalrympleArt/src/assets/compressed/IMG_3.jpg",
     },
     {
-      src: "/PauldalrympleArt/src/assets/IMG_4.jpg",
+      src: "/PauldalrympleArt/src/assets/compressed/IMG_4.jpg",
     },
     {
-      src: "/PauldalrympleArt/src/assets/IMG_5.jpg",
+      src: "/PauldalrympleArt/src/assets/compressed/IMG_5.jpg",
     },
   ];
 
