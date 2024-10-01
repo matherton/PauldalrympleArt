@@ -1,0 +1,10 @@
+/* 2. Use CSS to make images non-selectable */
+img {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
