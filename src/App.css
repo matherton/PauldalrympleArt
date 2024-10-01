@@ -9,3 +9,6 @@ img {
   -o-user-drag: none;
   pointer-events: none;
 }
+img.clickable {
+  pointer-events: default;
+}

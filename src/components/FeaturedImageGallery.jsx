@@ -39,7 +39,7 @@ export default function FeaturedImageGallery() {
             <img
               onClick={() => setActiveImage(image.src)}
               src={image.src}
-              className="h-20 max-w-full cursor-pointer rounded-lg object-cover object-center"
+              className="h-20 max-w-full cursor-pointer rounded-lg object-cover object-center clickable"
               alt="gallery-image"
             />
           </div>
