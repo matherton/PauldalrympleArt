@@ -10,5 +10,5 @@ img {
   pointer-events: none;
 }
 img.clickable {
-  pointer-events: default;
+  pointer-events: initial;
 }
